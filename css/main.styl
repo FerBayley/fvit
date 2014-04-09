@@ -5,371 +5,286 @@ blanco = #FFFFFF
 footer = #BED0DE
 
 
-body
-	background blanco
-	font-size 16px
-	font-weight 100
-footer
-	color gris_del_preHeader
-	background-color footer
-	border-top solid 3px rosa_menu
-	font-size 12px
-	height auto
-	padding .5em 0 .5em 0
-	text-align center
-	width 100%
-.clear
-	clear both
-.contenido
-	height auto
-	width 100%
-	.barraTitulo
-		background-color rosa_menu
-		height auto
-		width auto
-		h1
-			color blanco
-			font-size 23px
-			font-weight 100
-			padding .7em 0 .5em 4.5em
-			span
-				font-size 18px
-				font-style italic
-	p
-		color gris_del_preHeader
-		font-size 14px
-		line-height 26px
-		margin 0 auto
-		padding 0 2em 0 1.7em
-		width 83%
-.contenedorColumnas
-	height auto
+
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,700,400italic);
+*
+	border 0px
 	margin 0px
 	padding 0px
-	width 100%
-	.cols
-		height auto
-		margin 0 auto
-		padding 0px
-		width 90%
-	.col1
-		display inline-block
-		padding-left 2.5em
-		padding-right 2.2em
-		vertical-align top
-		.boton
-			transition: 2s
-			-webkit-transition: 2s
-			-moz-transition: 2s
-			-o-transition: 2s
-			-ms-transition: 2s
-			background-color rosa_menu
-			cursor pointer
-			height 35px
-			margin 0 0 1em 0
-			text-align center
-			padding 1.3em 0 0 0
-			width 100%
-		.boton:hover
-			color blanco
-			background-color #8e44ad
-		h3
-			font-size 20px
-			font-weight 100
-			margin-bottom .3em
-.contenedorRedes
+
+body
+	font-family: 'Gudea', sans-serif;
+	font-size 16px
+	text-align center
+
+footer
+	background-color footer
+	border-top solid 3px rosa_menu
 	height auto
-	margin 0 auto
 	padding 1em 0 1em 0
-	width 40%
-	.redesSociales
-		li
-			display inline-block
-			padding 0 1.3em 0 1.5em
-.imagenCentralFlabia
-	height auto
-	margin 0 auto
-	margin-top 20px;
-	width 61%
-.preHeader
+	width 100%
+	h6
+		color gris_del_preHeader
+		font-size .8em
+		font-weight 100
+
+header
 	background-color gris_del_preHeader
 	color blanco
+	h1,h2
+		font-weight 100
+		padding 0 1em 0 1em
+	h1
+		font-size 1.7em
+	h2
+		font-size 1.2em
+		font-style italic
+		margin-top -1em
+		margin-left 3em
+
+nav
+	background-color rosa_menu
 	height auto
-	margin-bottom -16px
-	margin-top 0px
+	padding .5em 0 .5em 0
+	width 100%
+	ul li
+		display inline-block
+		padding 0 .5em 0 .5em
+	a
+		color blanco
+		text-decoration none
+	a:hover
+		color gris_del_preHeader
+
+.contenido
+	height auto
+	line-height 24px
+	margin 0 auto
+	text-align left
+	width 90%
+
+.barraDeLaPagina
+	background-color rosa_menu
+	height auto
+	margin-bottom 1em
+	margin-top -1.7em
+	padding 1em 0 0 0
+	width 100%
+	h1
+		color blanco
+		font-size 1.5em
+		font-weight 100
+		text-align left
+		padding 0 0 .3em 0
+		margin-left 2.7em
+	span
+		font-size .8em
+		font-style italic
+
+.datos,.logos
+	display inline-block
+	vertical-align middle
+
+.datos
+	float right
+	margin 2.9em 1.8em 0 0
+
+.clear
+	clear both
+
+.columnas
+	height auto
+	width 100%
+	.cols
+		display inline-block
+		padding 2em 1em 2em 1em
+		h3
+			font-weight 100
+			float left
+			margin 0 0 .3em 0
+		a
+			color gris_del_preHeader
+			text-decoration none
+
+.contactar
+	background-color rosa_menu
+	height auto
+	padding 1em 0 1em 0
 	width 100%
 
-	.log
-		display inline-block
-		vertical-align top
-		width 30%
-		h1
-			font-size 25px
-			font-weight 100
-			margin .7em 0 -.1em 1.5em
-			a
-				color blanco
-				transition: 1s
-				-webkit-transition: 1s
-				-moz-transition: 1s
-				-o-transition: 1s
-				-ms-transition: 1s
-				text-decoration none
-			a:hover
-				color rosa_menu
-		h2
-			font-size 14px
-			font-style italic
-			font-weight 100
-			margin .5em 0 1em 8em
-	.institucional
-		display inline-block
-		vertical-align top
-		width 65%
-		p
-			font-size 13px
-			font-weight 100
-			text-align right
-			margin 2.5em -2em 0 0
-.miniCv
+.container
 	height auto
-	margin 0 0 1em 0
-	padding .2em 0 1em 0
 	width 100%
-	article
-		height auto
-		margin 0 auto
-		margin-top 3em
-		width 83%
-		h2
-			color gris_del_preHeader
-			font-size 20px
-			font-weight 100
-		p
-			color gris_del_preHeader
-			font-size 14px
-			line-height 22px
-			width 97%
-		img
-			float left
-			padding-right 1.5em
+
+.flabia
+	height auto
+	margin 0 auto
+	margin-top 5em
+	width 72%
+	img
+		float left
+		margin-right 1em
+	p
+		text-align left
+		line-height 25px
+	h3
+		color gris_del_preHeader
+		font-size 1.3em
+		font-weight 100
+		margin 0 0 .5em 0
+		text-align left
+
+.logos
+	float left
+	padding 1em 0 1.9em 1em
+
 .redes
+	height auto
+	margin 1.8em 0 1em 0
+	width auto
+	ul li
+		display inline-block
+		padding 0 .8em 0 .8em
+
+
+.vidriera
 	height auto
 	width 100%
 	img
-		transition: 1s
-		-webkit-transition: 1s
-		-moz-transition: 1s
-		-o-transition: 1s
-		-ms-transition: 1s
-		width 64px
-	img:hover
-		margin-bottom 20px
-.vidriera
-	background-image url(../img/bg-vidriera.jpg)
-	height 433px
-	margin-bottom 1em
-	width 100%
-	nav
-		background-color rosa_menu_rgb_alpha
-		height 50px
-		margin-top 1em
+		height auto
 		width 100%
-		ul
-			font-size 14px
-			font-weight 100
-			width 90%
-			li
-				display inline-block
-				padding 1.3em 1.4em 0 0
-				a
-					color blanco
-					text-decoration none
-					transition: 1s
-					-webkit-transition: 1s
-					-moz-transition: 1s
-					-o-transition: 1s
-					-ms-transition: 1s
-				a:hover
-					color gris_del_preHeader
-.vidrieraInterna
-	background-image url(../img/bg-vidriera.jpg)
-	border-bottom solid 5px rosa_menu
-	height 243px
-	margin-bottom 1em
-	width 100%
-	nav
-		background-color rosa_menu_rgb_alpha
-		height 50px
-		margin-top 1em
-		width 100%
-		ul
-			font-size 14px
-			font-weight 100
-			width 90%
-			li
-				display inline-block
-				padding 1.3em 1.4em 0 0
-				a
-					color blanco
-					text-decoration none
-					transition: 1s
-					-webkit-transition: 1s
-					-moz-transition: 1s
-					-o-transition: 1s
-					-ms-transition: 1s
-				a:hover
-					color gris_del_preHeader
 
+/* ***************************** MEDIA QUERIES ********************************** */
 
-/* ***************************** MEDIA QUERIES ******************* */
 @media screen and (min-width: 0px) and (max-width: 319px)
 	body
-		background-color red
-		width 100%
-/* *************************************************************** */
-
-@media screen and (min-width: 320px) and (max-width: 479px)
-	body
-		background-color green
-		display block
-		float none
+		background-color #333
+	header
 		height auto
 		width 100%
-	.container
+	.cols
+		height auto
+		display block
+		width 90%
+		img
+			width 90%
+	.columnas
+		height auto
+		width 100%
+	.contactar
 		height auto
 		margin 0 auto
-		width 95%
-	.vidriera
-		height auto
+		width 90%
+	.container
 		width 100%
-		.imagenCentralFlabia
+	.datos
+		line-height 25px
+		margin 0 auto
+		margin -1em 0 .5em 0
+		width 100%
+	.flabia
+		img
 			height auto
+			margin-bottom 1em
+			width 95%
+		h3
+			font-size 1.2em
 			width 100%
-			img
-				height auto
-				width 100%
-	.contenedorColumnas
-		background-color red
-		height auto
-		width 100%
-		.col1
-			background-color blue
-			display block
-			float none
-			height auto
-			width 80%
-			img
-				height auto
-				width 100%
-	.miniCv
-		background-color red
-		height auto
-		width 100%
-		article img
-			padding-bottom 1em
-	.preHeader
-		background-color red
-		height auto
-		width 100%
-		.log
-			background-color blue
-			height auto
-			width 100%
-			h1
-				font-size 2em
-				text-align center
-			h2
-				font-size 1em
-				text-align center
-		.institucional
-			background-color pink
-			height auto
-			margin 0px
-			padding 0px
-			width 100%
-			p
-				background-color blue
-				font-size .9em
-				height auto
-				line-height 22px
-				margin 0 auto
-				text-align center
-				width 78%
+	.logos
+		display block
+		float none
+		h1
+			font-size 2em
+		h2
+			margin-left 7em
 	.redes
 		background-color blue
 		height auto
-		width 100%
-		.contenedorRedes
-			height auto
-			padding 0px
-			margin 0px
-			width 100%
-			.redesSociales
-				height auto
-				padding 0px
-				width 100%
+		margin 0 auto
+		margin-bottom 1em
+		margin-top 2em
+		width 80%
+
 /* *************************************************************** */
 
-@media screen and (min-width: 480px) and (max-width: 759px)
-	body
-		background-color blue
-		display block
-		float none
+@media screen and (min-width: 320px) and (max-width: 479px)
+	header
 		height auto
 		width 100%
 	.container
-		height auto
+		width 100%
+	.datos
+		line-height 25px
 		margin 0 auto
-		width 95%
-	.vidriera
-		height auto
+		margin -1em 0 .5em 0
 		width 100%
-		.imagenCentralFlabia
+	.flabia
+		img
 			height auto
+			margin-bottom 1em
+			width 95%
+		h3
+			font-size 1.2em
 			width 100%
-			img
-				height auto
-				width 100%
-	.contenedorColumnas
-		background-color red
+	.logos
+		display block
+		float none
+		h1
+			font-size 2em
+		h2
+			margin-left 7em
+
+/* *************************************************************** */
+
+@media screen and (min-width: 480px) and (max-width: 759px)
+	header
 		height auto
 		width 100%
+	.container
+		width 100%
+	.datos
+		line-height 25px
+		margin 0 auto
+		margin -1em 0 .5em 0
+	.flabia
+		img
+			height auto
+			margin-bottom 1em
+			width 95%
+		h3
+			font-size 1.2em
+			width 100%
+	.logos
+		display block
+		float none
+		h1
+			font-size 2em
+		h2
+			margin-left 7em
 
 /* *************************************************************** */
 
 @media screen and (min-width: 760px) and (max-width: 1019px)
-	body
-		background-color orange
-		display block
-		float none
-		height auto
-		width 100%
 	.container
-		height auto
+		width 100%
+	.datos
+		line-height 25px
 		margin 0 auto
-		width 95%
-	.vidriera
-		height auto
-		width 100%
-		.imagenCentralFlabia
-			height auto
-			width 100%
-			img
-				height auto
-				width 100%
-	.contenedorColumnas
-		background-color red
-		height auto
-		width 100%
+		margin-top 2.3em
+		text-align left
+		width 48%
 
 /* *************************************************************** */
 
+/*@media screen and (min-width: 1020px)
+	body
+		background-color orange
 
-/* ***************************** FINAL MEDIA QUERIES ************* */
+/* *************************************************************** */
 
+/*@media screen and (min-width: 1021px)
+	body
+		background-color red
 
-
-
-
+/* ***************************** FINAL MEDIA QUERIES ********************************** */
 
